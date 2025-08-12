@@ -131,7 +131,7 @@ with col2:
             
             # Show loading immediately
             with st.spinner('🔄 Processing your website...'):
-                webhook_url = "https://saivignesh-2004.app.n8n.cloud/webhook/streamlit"
+                webhook_url = "https://ekshith06.app.n8n.cloud/webhook/streamlit"
                 try:
                     response = requests.post(webhook_url, data={"url": website_url})
                     if response.status_code == 200:
